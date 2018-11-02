@@ -151,6 +151,7 @@
   #define SPINDLE_DIR_PIN          15
 #endif
 
+#define FIL_RUNOUT_PIN     5
 //
 // LCD / Controller
 //
