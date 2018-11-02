@@ -39,13 +39,11 @@
 #define CONFIGURATION_H
 #define CONFIGURATION_H_VERSION 010109
 
-
 // Mendel90 Z-axis height adjustment
 #define Z_HEIGHT_MM 183.2 // Other measurements at line 759
 
 // Extruder Correction Ratio
 #define E_CORRECTION (100.0 / 100.0)
-
 
 //===========================================================================
 //============================= Getting Started =============================
