@@ -40,7 +40,7 @@
 #define CONFIGURATION_H_VERSION 010109
 
 // Mendel90 Z-axis height adjustment
-#define Z_HEIGHT_MM 183.2 // Other measurements at line 759
+#define Z_HEIGHT_MM 183.2 // Other measurements at line 914
 
 // Extruder Correction Ratio
 #define E_CORRECTION (100.0 / 100.0)
@@ -1314,7 +1314,7 @@
 
 #if ENABLED(NOZZLE_PARK_FEATURE)
   // Specify a park position as { X, Y, Z }
-  #define NOZZLE_PARK_POINT { (X_MAX_POS - 15), (Y_MAX_POS - 15), 20 }
+  #define NOZZLE_PARK_POINT { 0, Y_MAX_POS, 20 }
   #define NOZZLE_PARK_XY_FEEDRATE 100   // X and Y axes feedrate in mm/s (also used for delta printers Z axis)
   #define NOZZLE_PARK_Z_FEEDRATE 5      // Z axis feedrate in mm/s (not used for delta printers)
 #endif
