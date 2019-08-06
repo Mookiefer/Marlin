@@ -39,8 +39,8 @@
 #define CONFIGURATION_H
 #define CONFIGURATION_H_VERSION 010109
 
-// Mendel90 Z-axis height adjustment
-#define Z_HEIGHT_MM 183.8 // Other measurements at line 914
+// Mendel90 Z-axis height adjustment. To move up, decrease. To move down, increase.
+#define Z_HEIGHT_MM 183.6 // Other measurements at line 914
 
 // Extruder Correction Ratio
 #define E_CORRECTION (100.0 / 100.0)
